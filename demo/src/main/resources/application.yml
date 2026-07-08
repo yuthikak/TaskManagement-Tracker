@@ -1,0 +1,11 @@
+spring:
+  data:
+  mongodb:
+    uri: mongodb+srv://yuthikakuwar:1234@cluster0.zv5kzjx.mongodb.net/demo?appName=Cluster0
+    database: demo
+    auto-index-creation: true
+
+  main:
+    allow-circular-references: true
+server.port: 8082
+
